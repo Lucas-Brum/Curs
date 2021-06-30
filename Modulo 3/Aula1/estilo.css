@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+p {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:  Helvetica;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
