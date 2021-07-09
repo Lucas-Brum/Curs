@@ -1,0 +1,12 @@
+body{
+    font-family: 'Courier '
+}
+.box{
+    width: 300px;
+    background-color: #999;
+}
+.box-interno{
+    width: 15ch;
+    background-color: #333;
+    color: #fff
+}
