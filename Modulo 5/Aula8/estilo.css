@@ -1,0 +1,37 @@
+
+
+*{/*propriedade serão aplicada a todosos elementos da tela*/
+    box-sizing: border-box;/*"border-box" este tamanho vai incluir sim tanto o pading quanto o border
+                            "content-box" vem por padrão, o tamanho de um elemnento e definido pelo conteúdo dele, isso não conta o pading quanto o border*/
+}
+
+body{
+    display: flex;
+     margin: 0;  
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 3px solid #000;
+}
+@media (orientation: landscape){/*orientação predominantemente orizontal (landscape)*/
+    body{
+        flex-direction: row;/* na linha*/
+    }
+}
+@media (orientation: portrait){/*orientação predominantemente na vertical (portrait)*/
+    body{
+        flex-direction: column;
+    }    
+
+}
+
+
+
+
+
+
+
+
+
+

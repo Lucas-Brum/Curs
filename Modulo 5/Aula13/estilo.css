@@ -1,0 +1,19 @@
+
+
+*{/*propriedade serão aplicada a todosos elementos da tela*/
+    box-sizing: border-box;/*"border-box" este tamanho vai incluir sim tanto o pading quanto o border
+                            "content-box" vem por padrão, o tamanho de um elemnento e definido pelo conteúdo dele, isso não conta o pading quanto o border*/
+}
+img{
+    width: max(50%, 300px);/*" width:max" pega o maior valor e o " width:min" pega o menor valor*/
+    max-width: 800px;
+    margin: auto;
+
+}
+
+
+
+
+
+
+

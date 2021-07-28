@@ -1,0 +1,31 @@
+*{/*propriedade serão aplicada a todosos elementos da tela*/
+    box-sizing: border-box;/*"border-box" este tamanho vai incluir sim tanto o pading quanto o border
+                            "content-box" vem por padrão, o tamanho de um elemnento e definido pelo conteúdo dele, isso não conta o pading quanto o border*/
+}
+
+body{
+    margin: 0;   
+    color: #ff0000;    
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    object-fit:cover;
+
+}
+/*"object-fit: ;" Opções:
+"fill" - independente do tamanho ela destorce a imagem (vem por padrão)
+"contain" - diminui a imagem de forma que mantém a imagem proporcionalmente (dentro de um conteiner)
+"cover" - mantém a proporção da imagem, porém (ajusta e corta) a imagem para ocupar todo espaço (sem distorção).
+"none" - mantém a imagem do tamanho original (corta a imagem, sem ajuste) não redimensiona.
+"scale-down" - similar ao contain (diminui a imagem, tamanho e qualidade).
+
+*/
+
+
+
+
+
+
+

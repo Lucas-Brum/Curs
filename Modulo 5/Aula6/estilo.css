@@ -1,0 +1,38 @@
+*{/*propriedade serão aplicada a todosos elementos da tela*/
+    box-sizing: border-box;/*"border-box" este tamanho vai incluir sim tanto o pading quanto o border
+                            "content-box" vem por padrão, o tamanho de um elemnento e definido pelo conteúdo dele, isso não conta o pading quanto o border*/
+}
+
+body{
+     
+     background-color:#00FF00;    
+}
+h1{
+    color: blanchedalmond;
+}
+@media (min-width: 1000px){
+    body{
+        background-color:#0000FF;
+    }
+
+    }
+
+@media ( max-width:600px ) { /*condição para que seja ativado*/
+    body{
+        background-color:#FF0000;/*quando a tela estiver em 600px a cor preta desativa e ativa a vermelha*/
+    }
+    h1{
+        font-size: 15px; /*quando atinge a condição a letra se torna em 15px*/
+    }
+}
+
+/*
+
+*/
+
+
+
+
+
+
+

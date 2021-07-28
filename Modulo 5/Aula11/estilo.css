@@ -1,0 +1,40 @@
+
+
+*{/*propriedade serão aplicada a todosos elementos da tela*/
+    box-sizing: border-box;/*"border-box" este tamanho vai incluir sim tanto o pading quanto o border
+                            "content-box" vem por padrão, o tamanho de um elemnento e definido pelo conteúdo dele, isso não conta o pading quanto o border*/
+}
+:root{/*criando variáveis para cor*/
+    --bg-color:rgb(165, 52, 52);
+    --bg-second:#444;
+    --font-color:#fff;
+    --font-size:25px;
+}
+
+body{
+     margin: 0; 
+     background-color: var(--bg-color); 
+     font-size: var(--font-size);
+}
+h1{
+    color:var(--font-color,#0000ff);/*no caso da variável "--font--color" deixar de existir ele irá aplicar o azul*/
+}
+
+.container{
+    background-color:var(--bg-second);
+    color:var(--font-color);
+}
+@media ( max-width:450px ) {/*chegando nesta largura de tela o ":root" diminiu o valor da minha variável da font*/
+    :root{
+       --font-size:15px;
+    }
+    
+}
+
+
+
+
+
+
+
+

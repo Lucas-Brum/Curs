@@ -1,0 +1,40 @@
+
+
+*{/*propriedade serão aplicada a todosos elementos da tela*/
+    box-sizing: border-box;/*"border-box" este tamanho vai incluir sim tanto o pading quanto o border
+                            "content-box" vem por padrão, o tamanho de um elemnento e definido pelo conteúdo dele, isso não conta o pading quanto o border*/
+}
+
+body{
+     
+     background-color:#868886;    
+}
+table,td{
+    border: 2px solid #000;
+    font-size: 15px;
+    color: darkmagenta;
+}
+    
+h1{
+    color: blanchedalmond;
+    font-size: 40px;
+    font-weight: bold;
+}
+@media only print {/*neste caso estas configurações entraram somente na impressão da pagina (o "@media" e uma condição, ou seja em que momento essa açao sera feita*/
+    h1{            /*"@media only screen" - adiciona propriedades na impressão neste caso.*/ 
+    font-size:100px;
+    color: bisque;
+    font-weight: normal;
+   
+    }
+
+}
+
+
+
+
+
+
+
+
+
